@@ -1,0 +1,131 @@
+object FMascara: TFMascara
+  Left = 0
+  Top = 0
+  Caption = 'Mascara [1.0.0.7]'
+  ClientHeight = 272
+  ClientWidth = 396
+  Color = clWindow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PanelCMascara: TCurvyPanel
+    Left = 0
+    Top = 0
+    Width = 396
+    Height = 120
+    Align = alTop
+    object lblMascara: TLabel
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Width = 390
+      Height = 19
+      Align = alTop
+      Caption = 'Mascara'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      ExplicitWidth = 56
+    end
+    object edtMascara: TEdit
+      AlignWithMargins = True
+      Left = 3
+      Top = 28
+      Width = 390
+      Height = 27
+      Align = alTop
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      Text = '(000)-LLL-AAA/000'
+    end
+    object Panel2: TPanel
+      AlignWithMargins = True
+      Left = 3
+      Top = 72
+      Width = 390
+      Height = 45
+      Align = alBottom
+      BorderWidth = 1
+      BorderStyle = bsSingle
+      Color = clWindow
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentBackground = False
+      ParentFont = False
+      TabOrder = 1
+      object btnMaskLoad: TButton
+        AlignWithMargins = True
+        Left = 260
+        Top = 5
+        Width = 121
+        Height = 31
+        Align = alRight
+        Caption = 'Cargar Mascara'
+        TabOrder = 0
+        OnClick = FormCreate
+      end
+    end
+  end
+  object PanelTexto: TPanel
+    Left = 0
+    Top = 168
+    Width = 396
+    Height = 104
+    Align = alBottom
+    Color = clWindow
+    ParentBackground = False
+    TabOrder = 1
+    object lblTexto: TLabel
+      AlignWithMargins = True
+      Left = 4
+      Top = 4
+      Width = 388
+      Height = 19
+      Align = alTop
+      Caption = 'Ingrese Texto:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      ExplicitWidth = 104
+    end
+    object edtTexto: TEdit
+      AlignWithMargins = True
+      Left = 4
+      Top = 29
+      Width = 388
+      Height = 27
+      Align = alTop
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnExit = edtTextoExit
+      OnKeyDown = edtTextoKeyDown
+      OnKeyPress = edtTextoKeyPress
+    end
+  end
+end
