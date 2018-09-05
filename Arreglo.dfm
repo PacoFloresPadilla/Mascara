@@ -1,7 +1,7 @@
 object FMascara: TFMascara
   Left = 0
   Top = 0
-  Caption = 'Mascara [1.0.0.7]'
+  Caption = 'Mascara [1.0.0.8]'
   ClientHeight = 205
   ClientWidth = 396
   Color = clWindow
