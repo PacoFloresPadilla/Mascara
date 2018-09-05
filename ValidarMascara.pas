@@ -6,7 +6,7 @@
  tamaño  y campos especificos.  Se realiza un validación en tiempo real y
  otra al salir del texto.
 
-.
+
   @Author INEGI
   @Version 1.0.0.8
 }
