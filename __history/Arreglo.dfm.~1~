@@ -2,7 +2,7 @@ object FMascara: TFMascara
   Left = 0
   Top = 0
   Caption = 'Mascara [1.0.0.7]'
-  ClientHeight = 205
+  ClientHeight = 272
   ClientWidth = 396
   Color = clWindow
   Font.Charset = DEFAULT_CHARSET
@@ -73,35 +73,26 @@ object FMascara: TFMascara
       TabOrder = 1
       object btnMaskLoad: TButton
         AlignWithMargins = True
-        Left = 5
+        Left = 260
         Top = 5
-        Width = 376
+        Width = 121
         Height = 31
-        Align = alClient
+        Align = alRight
         Caption = 'Cargar Mascara'
         TabOrder = 0
         OnClick = FormCreate
-        ExplicitLeft = 260
-        ExplicitWidth = 121
       end
     end
   end
   object PanelTexto: TPanel
-    AlignWithMargins = True
     Left = 0
-    Top = 140
+    Top = 168
     Width = 396
-    Height = 65
-    Margins.Left = 0
-    Margins.Top = 20
-    Margins.Right = 0
-    Margins.Bottom = 0
-    Align = alClient
+    Height = 104
+    Align = alBottom
     Color = clWindow
     ParentBackground = False
     TabOrder = 1
-    ExplicitTop = 120
-    ExplicitHeight = 152
     object lblTexto: TLabel
       AlignWithMargins = True
       Left = 4
