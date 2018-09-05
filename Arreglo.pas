@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,StrUtils, ExtCtrls, CurvyControls,ValidarMascara;
+  Dialogs, StdCtrls,StrUtils, ExtCtrls, CurvyControls,ValidarMascara, AdvSmoothPanel, AdvGlowButton;
 
 type
   TFMascara = class(TForm)
